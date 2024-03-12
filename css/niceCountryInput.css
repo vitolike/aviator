@@ -1,0 +1,89 @@
+.niceCountryInputMenu {
+    background: white !important;
+    color: black !important;
+    border: 1px solid #a8a8a8;
+    cursor: pointer;
+     /*
+    font-family: Arial;
+    font-size: 12px;
+    */
+}
+.niceCountryInputMenuDefaultText {
+    width: 270px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.niceCountryInputMenuDefaultText a:hover {
+    text-decoration: none;
+}
+.niceCountryInputMenu a {
+    color: black !important;
+}
+.niceCountryInputMenuDropdown {
+    /*border-left: 1px solid #a8a8a8;*/
+    height: 25px;
+    width: 21px;
+    float: right;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    right: 0;
+    color: black;
+}
+.niceCountryInputMenuDropdownContent {
+    border: 1px solid #a8a8a8;
+    border-top: 0;
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.niceCountryInputMenuDropdownContent a {
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    width: 100%;
+    color: black !important;
+    overflow: hidden;
+    text-decoration: none;
+    /*
+    font-family: Arial;
+    font-size: 12px;
+    */
+}
+.niceCountryInputMenuDropdownContent a:hover {
+    background-color: gray !important;
+    color: white !important;
+    text-decoration: none;
+}
+.niceCountryInputMenuFilter {
+    border: 1px solid #a8a8a8;
+    border-top: 0;
+    border-bottom: 0;
+}
+.niceCountryInputMenuFilter input {
+    width: 100%;
+    width: calc(100% - 10px);
+    margin: 5px;
+    padding: 5px;
+}
+.niceCountryInputMenuCountryFlag {
+    border: 1px solid #d3d3d3;
+    width: 18px;
+    height: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.niceCountryInputMenuCountryNoFlag {
+    display: inline-block;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    line-height: 15px;
+    text-align: center;
+    width: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+}
